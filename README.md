@@ -1,6 +1,7 @@
 # pci-ids
 
 A nodejs library to parse the PCI IDs database file and make its contents available.
+
 See [The PCI ID Repository](https://pci-ids.ucw.cz/) for details.
 
 ## Installation
