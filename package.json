@@ -1,0 +1,14 @@
+{
+  "name": "pci-ids",
+  "description": "A nodejs library to parse the PCI IDs database file and make its contents available.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "pci",
+    "pci.ids",
+    "ids"
+  ],
+  "repository": "github.com:kcampion/pci-ids.git",
+  "author": "Kevin Campion <campion.kevin@gmail.com>",
+  "license": "MIT"
+}
