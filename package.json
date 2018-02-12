@@ -1,7 +1,7 @@
 {
   "name": "pci-ids",
   "description": "A nodejs library to parse the PCI IDs database file and make its contents available.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "postinstall": "rm -f pci.ids && wget https://github.com/pciutils/pciids/raw/master/pci.ids"
@@ -11,7 +11,10 @@
     "pci.ids",
     "ids"
   ],
-  "repository": "github.com:kcampion/pci-ids.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcampion/pci-ids.git"
+  },
   "author": "Kevin Campion <campion.kevin@gmail.com>",
   "license": "MIT"
 }
