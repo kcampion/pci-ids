@@ -11,7 +11,7 @@ exports.getInfo = (pciIds) => {
   const deviceSubsysId = data.device_subsys.toLowerCase()
   const manufacturerId = data.manufacturer.toLowerCase()
 
-  fs.readFileSync(__dirname + '/pci.ids.txt').toString().split('\n').forEach(function (line) {
+  fs.readFileSync(__dirname + '/pci.ids').toString().split('\n').forEach(function (line) {
     if (line.substr(0, 4) === vendorId) {
       if(debug === true) {
         console.log('--- vendorId: ' + format(line.substr(4 + 2)))
